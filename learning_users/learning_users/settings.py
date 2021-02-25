@@ -28,7 +28,7 @@ SECRET_KEY = '76_)q)2fd0l%hvw5&_63*##5@_8j#w7j+q#ha&6s$=#&@*x2a_'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['www.elysiancoder.com']
 
 
 # Application definition
