@@ -12,7 +12,7 @@ from django.contrib.auth.decorators import login_required
 def index(request):
     return render(request,'basic_app/index.html')
 
-def About(request):
+def about(request):
     return render(request,'basic_app/about.html')
 
 @login_required
