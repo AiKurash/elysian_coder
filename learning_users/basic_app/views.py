@@ -12,6 +12,9 @@ from django.contrib.auth.decorators import login_required
 def index(request):
     return render(request,'basic_app/index.html')
 
+def About(request):
+    return render(request,'basic_app/about.html')
+
 @login_required
 def special(request):
     return HttpResponse("You are logged in , Nice!")
