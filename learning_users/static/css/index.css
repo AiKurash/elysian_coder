@@ -12,11 +12,22 @@ html {
 
  h1 {
    font-size: 3rem;
-   color: #E2DBDb;
+   color: #008B8B;
  }
 
  .btn {
    font-weight: 700;
    border-radius: 300px;
    text-transform: uppercase;
+ }
+
+ img {
+ 	width: 100%;
+ 	height: auto;
+ 	margin: 10px;
+ 	transition: all 1s;
+ }
+
+ img:hover {
+ 	transform: scale(1.1);
  }
