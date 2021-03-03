@@ -24,8 +24,8 @@ h2 {
 }
 
 img {
-	width: 100%;
-	height: auto;
+	width: 50%;
+	height: 500px;
 	margin: 10px;
 	transition: all 1s;
 }
